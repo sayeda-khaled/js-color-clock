@@ -17,7 +17,7 @@ setInterval(function(){
 
   //console.log(currentDate.toLocaleTimeString());
 
-clockDisplay.innerHTML = currentDate.toLocaleTimeString('en-US', { hour12: false }); //.innerHTML to change HTML. Also got the format time here..
+  clockDisplay.innerHTML = currentDate.toLocaleTimeString('en-US', { hour12: false }); //.innerHTML to change HTML. Also got the format time here..
 
   //clockDisplay.innerHTML = currentDate; //.innerHTML to change HTML.. Used the above, so that I can change the time format
 
@@ -28,9 +28,7 @@ clockDisplay.innerHTML = currentDate.toLocaleTimeString('en-US', { hour12: false
 
   clockDisplay.onmouseover = function () {
     clockDisplay.innerHTML = randomColor;
-    
-    //title.innerHTML = "Please stop hovering me";
-  };
+    };
 
 }, 1000);
 
